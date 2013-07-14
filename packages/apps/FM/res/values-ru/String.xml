@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+ * Copyright (C) 2012, Code Aurora Forum. All rights reserved.
+ *
+ * Redistribution and use in source and binary forms, with or without
+ * modification, are permitted provided that the following conditions are
+ * met:
+ *     * Redistributions of source code must retain the above copyright
+ *       notice, this list of conditions and the following disclaimer.
+ *     * Redistributions in binary form must reproduce the above
+ *       copyright notice, this list of conditions and the following
+ *       disclaimer in the documentation and/or other materials provided
+ *       with the distribution.
+ *     * Neither the name of Code Aurora Forum, Inc. nor the names of its
+ *       contributors may be used to endorse or promote products derived
+ *       from this software without specific prior written permission.
+ *
+ * THIS SOFTWARE IS PROVIDED "AS IS" AND ANY EXPRESS OR IMPLIED
+ * WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF
+ * MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT
+ * ARE DISCLAIMED.  IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS
+ * BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR
+ * CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF
+ * SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR
+ * BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY,
+ * WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE
+ * OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN
+ * IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+ */
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="msg_noantenna">Пожалуйста, подключите гарнитуру для использования FM-радио </string>
+    <string name="menu_settings">настройки</string>
+    <string name="menu_record_start">Начать запись</string>
+    <string name="menu_record_stop">Остановить запись</string>
+    <string name="menu_all_channels">Все каналы</string>
+    <string name="msg_seeking">Поиск FM-станции</string>
+    <string name="button_text_stop">Стоп</string>
+    <string name="menu_scan_start">сканирование</string>
+    <string name="search_dialog_title">Сканирование станций</string>
+    <string name="default_search_category_type">Все станции</string>
+    <string name="Adult_Hits">Взрослые Просмотров</string>
+    <string name="Classical">классический</string>
+    <string name="Classic_Rock">классический рок</string>
+    <string name="College">колледж</string>
+    <string name="Country">страна</string>
+    <string name="audio_type_stereo">стерео</string>
+    <string name="audio_type_mono">Mono</string>
+    <string name="settings_revert_defaults_title">Возврат к заводским установкам</string>
+    <string name="menu_sleep">спать</string>
+    <string name="Emergency">аварийный</string>
+    <string name="sel_band_menu">Выберите Региональная группа</string>
+    <string name="Emergency_Test">чрезвычайная тест</string>
+    <string name="Foreign_Language">иностранный язык</string>
+    <string name="Information">информация</string>
+    <string name="Jazz">джаз</string>
+    <string name="All_Stations">Все станции</string>
+    <string name="News">новости</string>
+    <string name="Nostalgia">ностальгия</string>
+    <string name="Oldies">воспоминания</string>
+    <string name="sel_rec_dur">Выберите продолжительность записи</string>
+    <string name="Personality">личность</string>
+    <string name="Public">общественность</string>
+    <string name="Religious_Music">Религиозная музыка</string>
+    <string name="Religious_Talk">Религиозные Talk</string>
+    <string name="Rhythm_and_Blues">Ритм и Блюз</string>
+    <string name="Rock">Рок</string>
+    <string name="Soft">мягкий</string>
+    <string name="Soft_Rock">мягкий Рок</string>
+    <string name="Soft_Rhythm_and_Blues">Мягкий ритм и блюз</string>
+    <string name="Sports">спортивный</string>
+    <string name="Talk">говорить</string>
+    <string name="Top_40">Top 40</string>
+    <string name="Weather">погода</string>
+    <string name="settings_menu">настройки</string>
+    <string name="regional_band">Региональная группа</string>
+    <string name="record_dur">Длительность записи</string>
+    <string name="aud_output_mode">Режим аудиовыхода</string>
+    <string name="auto_select_af">Альтернативные частоты</string>
+    <string name="fac_defaults">Возврат к заводским установкам</string>
+    <string name="revert_to_fac">Возврат к заводским установкам</string>
+    <string name="sel_audio_output">Выберите аудио выход</string>
+    <string name="auto_select_af_enabled">авто выбиратьДоступно</string>
+    <string name="auto_select_af_disabled">авто выбирать инвалид</string>
+    <string name="settings_revert_defaults_summary">Сбросить все настройки</string>
+    <string name="settings_revert_confirm_title">Подтвердите Сброс настроек</string>
+    <string name="settings_revert_confirm_msg">Это приведет к удалению всех настроек, включая пресеты</string>
+    <string name="alert_dialog_ok">хорошо</string>
+    <string name="alert_dialog_cancel">отменить</string>
+    <string name="dialog_sleep_title">выбирать авто-выключенный время сна</string>
+    <string name="app_label_all_channels">Все каналы</string>
+
+</resources>

@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+ * Copyright (c) 2009, 2011-2012, Code Aurora Forum. All rights reserved.
+ *
+ * Redistribution and use in source and binary forms, with or without
+ * modification, are permitted provided that the following conditions are
+ * met:
+ *     * Redistributions of source code must retain the above copyright
+ *       notice, this list of conditions and the following disclaimer.
+ *     * Redistributions in binary form must reproduce the above
+ *       copyright notice, this list of conditions and the following
+ *       disclaimer in the documentation and/or other materials provided
+ *       with the distribution.
+ *     * Neither the name of Code Aurora Forum, Inc. nor the names of its
+ *       contributors may be used to endorse or promote products derived
+ *       from this software without specific prior written permission.
+ *
+ * THIS SOFTWARE IS PROVIDED "AS IS" AND ANY EXPRESS OR IMPLIED
+ * WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF
+ * MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT
+ * ARE DISCLAIMED.  IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS
+ * BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR
+ * CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF
+ * SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR
+ * BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY,
+ * WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE
+ * OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN
+ * IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+ */
+-->
+<resources>
+
+  <string-array name="ster_mon_entries">
+    <item>立体声</item>
+    <item>单声道</item>
+  </string-array>
+
+  <string-array name="record_durations_entries">
+    <item>5 分钟</item>
+    <item>15 分钟</item>
+    <item>30 分钟</item>
+    <item>直至停止</item>
+  </string-array>
+
+  <string-array name="sleep_duration_values">
+    <item>15 分钟之后</item>
+    <item>30 分钟之后</item>
+    <item>45 分钟之后</item>
+    <item>1 小时之后</item>
+  </string-array>
+
+  <string-array name="search_category_rbds_entries">
+    <item>@string/All_Stations</item>
+    <item>@string/Adult_Hits</item>
+    <item>@string/Classical</item>
+    <item>@string/Classic_Rock</item>
+    <item>@string/College</item>
+    <item>@string/Country</item>
+    <item>@string/Emergency</item>
+    <item>@string/Emergency_Test</item>
+    <item>@string/Foreign_Language</item>
+    <item>@string/Information</item>
+    <item>@string/Jazz</item>
+    <item>@string/News</item>
+    <item>@string/Nostalgia</item>
+    <item>@string/Oldies</item>
+    <item>@string/Personality</item>
+    <item>@string/Public</item>
+    <item>@string/Religious_Music</item>
+    <item>@string/Religious_Talk</item>
+    <item>@string/Rhythm_and_Blues</item>
+    <item>@string/Rock</item>
+    <item>@string/Soft</item>
+    <item>@string/Soft_Rock</item>
+    <item>@string/Soft_Rhythm_and_Blues</item>
+    <item>@string/Sports</item>
+    <item>@string/Talk</item>
+    <item>@string/Top_40</item>
+    <item>@string/Weather</item>
+  </string-array>
+
+  <string-array name="search_category_rds_entries">
+    <item>@string/All_Stations</item>
+    <item>@string/Culture</item>
+    <item>@string/Current_Affairs</item>
+    <item>@string/Children_programs</item>
+    <item>@string/Country_Music</item>
+    <item>@string/Documentary</item>
+    <item>@string/Drama</item>
+    <item>@string/Easy_Listening_Music</item>
+    <item>@string/Education</item>
+    <item>@string/Emergency</item>
+    <item>@string/Emergency_Test</item>
+    <item>@string/Finance</item>
+    <item>@string/Folk_Music</item>
+    <item>@string/Information</item>
+    <item>@string/Jazz_Music</item>
+    <item>@string/Light_classical</item>
+    <item>@string/Leisure</item>
+    <item>@string/News</item>
+    <item>@string/National_Music</item>
+    <item>@string/Other_Music</item>
+    <item>@string/Oldies_Music</item>
+    <item>@string/Phone_In</item>
+    <item>@string/Pop_Music</item>
+    <item>@string/Religion</item>
+    <item>@string/Rock_Music</item>
+    <item>@string/Science</item>
+    <item>@string/Serious_classical</item>
+    <item>@string/Social_Affairs</item>
+    <item>@string/Sport</item>
+    <item>@string/Travel</item>
+    <item>@string/Varied</item>
+    <item>@string/Weather</item>
+  </string-array>
+
+  <string-array name="presetlist_edit_category">
+    <item>重命名</item>
+    <item>自动选择</item>
+    <item>删除</item>
+  </string-array>
+
+
+  <string-array name="regional_band_entries">
+    <item>北美</item>
+    <item>欧洲</item>
+    <item>日本</item>
+    <item>日本 (宽频)</item>
+    <item>澳大利亚</item>
+    <item>奥地利</item>
+    <item>比利时</item>
+    <item>巴西</item>
+    <item>中国</item>
+    <item>捷克</item>
+    <item>丹麦</item>
+    <item>芬兰</item>
+    <item>法国</item>
+    <item>德国</item>
+    <item>希腊</item>
+    <item>香港</item>
+    <item>印度</item>
+    <item>爱尔兰</item>
+    <item>意大利</item>
+    <item>韩国</item>
+    <item>墨西哥</item>
+    <item>荷兰</item>
+    <item>新西兰</item>
+    <item>挪威</item>
+    <item>波兰</item>
+    <item>葡萄牙</item>
+    <item>俄罗斯</item>
+    <item>新加坡</item>
+    <item>斯洛伐克</item>
+    <item>西班牙</item>
+    <item>瑞士</item>
+    <item>瑞典</item>
+    <item>台湾</item>
+    <item>土耳其</item>
+    <item>英国</item>
+    <item>美国</item>
+  </string-array>
+
+  <string-array name="regional_band_summary">
+    <item>北美 (87.5MHz - 108.0MHz ，步长 200 Khz)</item>
+    <item>欧洲 (87.5MHz - 108.0MHz ，步长 100 Khz)</item>
+    <item>日本 (76.0MHz - 90.0MHz ，步长 100 Khz)</item>
+    <item>日本 (宽频) (90.0MHz - 108.0MHz ，步长 50 Khz)</item>
+    <item>澳大利亚 (87.7MHz - 108.0MHz ， 步长 100 Khz)</item>
+    <item>奥地利 (87.5MHz - 108.0MHz ， 步长 50 Khz)</item>
+    <item>比利时 (87.5MHz - 108.0MHz ，步长 100 Khz)</item>
+    <item>巴西 (87.8MHz - 108.0MHz ，步长 200 Khz)</item>
+    <item>中国 (87.0MHz - 108.0MHz ，步长 100 Khz)</item>
+    <item>捷克 (87.5MHz - 108.0MHz ， 步长 100 Khz)</item>
+    <item>丹麦 (87.5MHz - 108.0MHz ，步长 50 Khz)</item>
+    <item>芬兰 (87.5MHz - 108.0MHz ，步长 100 Khz)</item>
+    <item>法国 (87.5MHz - 108.0MHz ，步长 100 Khz)</item>
+    <item>德国 (87.5MHz - 108.0MHz ，步长 50 Khz)</item>
+    <item>希腊 (87.5MHz - 108.0MHz ，步长 50 Khz)</item>
+    <item>香港 (87.5MHz - 108.0MHz ，步长 100 Khz)</item>
+    <item>印度 (91.0MHz - 106.4MHz ，步长 100 Khz)</item>
+    <item>爱尔兰 (87.5MHz - 108.0MHz ，步长  50 Khz)</item>
+    <item>意大利 (87.5MHz - 108.0MHz ， 步长 50 Khz)</item>
+    <item>韩国 (87.5MHz - 108.0MHz ，步长 200 Khz)</item>
+    <item>墨西哥 (88.1MHz - 107.9MHz ，步长  200 Khz)</item>
+    <item>荷兰 (87.5MHz - 108.0MHz ，步长 100 Khz)</item>
+    <item>新西兰 (88.0MHz - 107.0MHz ，步长  100 Khz)</item>
+    <item>挪威 (87.5MHz - 108.0MHz ，步长 100 Khz)</item>
+    <item>波兰 (88.0MHz - 108.0MHz ，步长 50 Khz)</item>
+    <item>葡萄牙 (87.5MHz - 108.0MHz ，步长 50 Khz)</item>
+    <item>俄国 (87.5MHz - 108.0MHz ，步长 100 Khz)</item>
+    <item>新加坡 (88.0MHz - 108.0MHz ，步长 100 Khz)</item>
+    <item>斯洛伐克 (87.5MHz - 108.0MHz ，步长 100 Khz)</item>
+    <item>西班牙 (87.5MHz - 108.0MHz ，步长 100 Khz)</item>
+    <item>瑞士 (87.5MHz - 108.0MHz ，步长 100 Khz)</item>
+    <item>瑞典 (87.5MHz - 108.0MHz ，步长 100 Khz)</item>
+    <item>台湾 (87.5MHz - 108.0MHz ，步长 100 Khz)</item>
+    <item>土耳其 (87.5MHz - 108.0MHz ，步长 100 Khz)</item>
+    <item>英国 (87.5MHz - 108.0MHz ，步长 100 Khz)</item>
+    <item>美国 (88.1MHz - 107.9MHz ，步长 200 Khz)</item>
+  </string-array>
+</resources>

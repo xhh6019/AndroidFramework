@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2006 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<!-- Dialpad in the Phone app. -->
+<FrameLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/searchshow"
+	android:layout_width="match_parent"
+	android:layout_height="@dimen/call_log_list_contact_photo_size"
+	android:layout_centerVertical="true"
+	android:layout_marginTop="@dimen/call_log_inner_margin"
+       android:layout_marginBottom="@dimen/call_log_inner_margin"
+	android:orientation="horizontal"
+	android:gravity="center_vertical"
+	android:focusable="true">
+
+    <LinearLayout
+         android:id="@+id/searchContact" 
+	  android:nextFocusLeft="@+id/quick_contact_photo"
+         android:layout_height="wrap_content"
+         android:layout_width="match_parent"
+         android:background="@drawable/call_dial_panel_bg"
+         android:orientation="horizontal"
+         android:layout_weight="5">
+
+         <LinearLayout
+                android:id="@+id/quick_number"
+	         android:nextFocusRight="@+id/searchbtn"
+	         android:layout_height="wrap_content"
+	         android:layout_width="wrap_content"
+	         android:focusable="true" 
+                android:clickable="true"
+	         android:background="@drawable/call_dial_add_btn"
+	         android:orientation="horizontal">
+	         <QuickContactBadge
+	                android:id="@+id/quick_contact_photo"
+	                android:layout_marginTop="7dip"
+	                android:layout_marginBottom="7dip"
+	                android:layout_marginLeft="7dip"
+	                android:layout_marginRight="7dip"
+	                android:layout_width="50dip"
+	                android:layout_height="50dip"
+	                android:layout_alignParentLeft="true"
+	                android:layout_centerVertical="true"
+	                android:src="@drawable/contacts_default_image_small" 
+	                android:focusable="true"/>
+
+                <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:gravity="center_vertical"
+                android:layout_marginTop="@dimen/call_log_inner_margin"
+                android:layout_marginLeft="@dimen/call_log_inner_margin">
+
+                <TextView
+                    android:id="@+id/searchname"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="?attr/call_log_primary_text_color"
+                    android:textSize="18sp"
+                    android:singleLine="true" />
+
+                <TextView
+                    android:id="@+id/searchnum"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textColor="?attr/call_log_secondary_text_color"
+                    android:textSize="14sp"
+                    android:singleLine="true" />
+          	</LinearLayout>
+          	
+          </LinearLayout>
+          
+          <FrameLayout
+           android:layout_width="59dip"
+           android:layout_height="@dimen/call_log_list_contact_photo_size"
+           android:layout_weight="1">
+
+           <TextView
+                 android:id="@+id/searchcount"
+                 android:focusable="false" 
+                 android:clickable="false" 
+                 android:layout_width="59dip"
+                 android:layout_height="34dip"
+                 android:gravity="center"
+                 android:textSize="22dip"
+                 android:textColor="#ffffffff"
+                 android:layout_marginTop="5dip" 
+                 android:layout_marginBottom="25dip" />
+
+           <ImageButton 
+	    	android:id="@+id/searchbtn" 
+	       android:layout_width="59dip"
+	       android:layout_height="@dimen/call_log_list_contact_photo_size"
+	       android:background="@drawable/call_dial_add_cont"
+	       android:src="@drawable/call_dial_more"/>
+           
+         </FrameLayout>
+    </LinearLayout>
+
+
+    <LinearLayout
+         android:id="@+id/addtoContact" 
+         android:focusable="true" 
+         android:clickable="true"
+         android:gravity="center"
+         android:layout_height="match_parent"
+         android:layout_width="match_parent"
+         android:background="@drawable/call_dial_edit_btn">
+
+         <ImageView
+              android:layout_height="54dip"
+              android:layout_width="54dip"		
+              android:gravity="center_vertical"
+              android:src="@drawable/contact_btn_create_press"/>
+
+          <TextView
+              android:layout_height="match_parent"
+              android:layout_width="wrap_content"	
+              android:textColor="#ffffffff"
+              android:gravity="center_vertical"
+              android:textSize="22dip"
+              android:text="@string/non_phone_add_to_contacts"/>
+              
+    </LinearLayout>
+
+</FrameLayout>
